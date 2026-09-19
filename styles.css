@@ -4,6 +4,8 @@
     left: 0;
     width: 100%;
     text-align: center;
+    
+    font-size: larger;
 }
 
 .navigation-bar {
@@ -27,4 +29,22 @@ body {
     object-fit: cover;
     display: block;
     margin: auto;
+}
+
+.nav_hover {
+            display: inline-block;
+            padding: 0.5rem 1rem;
+            background: linear-gradient(135deg, #7079a3 0%, #569acb 100%);
+            color: white;
+            border-radius: 0.5rem;
+            font-weight: 1000;
+            font-size: 1rem;
+            white-space: nowrap;
+            margin: 0.25rem;
+            transition: all 0.3s ease;
+        }
+
+.nav_hover:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
 }
