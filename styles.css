@@ -72,4 +72,30 @@ h2 {
     padding: 20px;
     border-radius: 10px;
     background-color: #9cdace;
+
+    max-width: 800px;
+    margin: auto;
+}
+
+/* Coursework Styles */
+
+.coursework-container {
+    width: 300px;
+    text-align: center;
+}
+
+.coursework-list {
+    height: 250px;
+    padding: 15px;
+    background-color: #9cdace;
+    border-radius: 10px;
+    overflow-y: auto;
+}
+
+.coursework-list a {
+    display: block;
+    padding: 10px;
+    font-size: 20px;
+    line-height: 1.6;
+    
 }
