@@ -97,5 +97,12 @@ h2 {
     padding: 10px;
     font-size: 20px;
     line-height: 1.6;
-    
+    transition: .3s ease;
+}
+
+/*Highlights each assignment with a blue background*/
+.coursework-list a:hover {
+    background-color: #569acb;
+    color: white;
+    padding-left: 10px;
 }
