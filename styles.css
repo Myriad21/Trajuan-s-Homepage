@@ -1,0 +1,50 @@
+.navigation {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    
+    font-size: larger;
+}
+
+.navigation-bar {
+    background-color: #9cdace;
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+body {
+    padding-top: 70px;
+}
+
+
+#hero_image {
+    height: 150px;
+    width: 150px;
+    border-radius: 70%;
+    object-fit: cover;
+    display: block;
+    margin: auto;
+}
+
+.nav_hover {
+            display: inline-block;
+            padding: 0.5rem 1rem;
+            background: linear-gradient(135deg, #7079a3 0%, #569acb 100%);
+            color: white;
+            border-radius: 0.5rem;
+            font-weight: 1000;
+            font-size: 1rem;
+            white-space: nowrap;
+            margin: 0.25rem;
+            transition: all 0.3s ease;
+        }
+
+.nav_hover:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
+}
