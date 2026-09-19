@@ -79,7 +79,7 @@ h2 {
 
 /* Coursework Styles */
 
-.coursework-container {
+.coursework-category {
     width: 300px;
     text-align: center;
 }
@@ -98,11 +98,26 @@ h2 {
     font-size: 20px;
     line-height: 1.6;
     transition: .3s ease;
+    margin-bottom: 8px;
+    background-color: #83c0b5;
+    color: white;
+    text-decoration: none;
+
+    border-radius: 8px;
+
 }
 
 /*Highlights each assignment with a blue background*/
 .coursework-list a:hover {
-    background-color: #569acb;
+    background-color: #7079a3;
     color: white;
-    padding-left: 10px;
+    padding-left: 20px;
+}
+
+/* So each box will appear next to each other and then wrap as the screen gets smaller*/
+.coursework-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
 }
