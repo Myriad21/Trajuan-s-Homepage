@@ -1,0 +1,30 @@
+.navigation {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.navigation-bar {
+    background-color: #9cdace;
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+body {
+    padding-top: 70px;
+}
+
+
+#hero_image {
+    height: 150px;
+    width: 150px;
+    border-radius: 70%;
+    object-fit: cover;
+    display: block;
+    margin: auto;
+}
