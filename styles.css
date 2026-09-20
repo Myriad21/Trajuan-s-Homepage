@@ -47,21 +47,21 @@ h2 {
 }
 
 .nav_hover {
-            display: inline-block;
-            padding: 0.5rem 1rem;
-            background: linear-gradient(135deg, #7079a3 0%, #569acb 100%);
-            color: white;
-            border-radius: 0.5rem;
-            font-weight: 1000;
-            font-size: 1rem;
-            white-space: nowrap;
-            margin: 0.25rem;
-            transition: all 0.3s ease;
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background: linear-gradient(135deg, #7079a3 0%, #569acb 100%);
+    color: white;
+    border-radius: 0.5rem;
+    font-weight: 1000;
+    font-size: 1rem;
+    white-space: nowrap;
+    margin: 0.25rem;
+    transition: all 0.3s ease;
         }
 
 .nav_hover:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
 }
 
 /*About me Styles*/
@@ -122,6 +122,7 @@ h2 {
     flex-wrap: wrap;
 }
 
+/*Makes courseworks unclickable with no link*/
 .disabled-link {
     display: block;
     padding: 10px;
@@ -135,4 +136,42 @@ h2 {
 
     opacity: 0.5;
     cursor: not-allowed;
+}
+
+/*Interest Styles*/
+.interests-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.interest-slot {
+    height: 250px;
+    padding: 15px;
+    background-color: #9cdace;
+    border-radius: 10px;
+    overflow-y: auto;
+}
+
+.interest-slot li {
+    padding: 10px;
+    font-size: 16px;
+    line-height: 1.6;
+    transition: .3s ease;
+    margin-bottom: 8px;
+    color: black;
+    text-decoration: none;
+
+    border-radius: 8px;
+}
+
+.interest-slot li:hover {
+    background-color: #7079a3;
+    color: white;
+    padding-left: 20px;
+}
+
+.interest_title {
+    font-size: 24px;
 }
