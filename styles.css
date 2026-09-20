@@ -2,19 +2,26 @@ html {
     scroll-behavior: smooth;
 }
 
+section {
+    scroll-margin-top: 80px;
+}
+
 .navigation {
     left: 0;
     position: fixed;
     top: 0;
     width: 100%;
     text-align: center;
-    
     font-size: larger;
+
+    background-color: #9cdace;
+    z-index: 500;
+
 }
 
 .navigation-bar {
     background-color: #9cdace;
-    margin-bottom: 20px;
+
     padding: 15px;
     border: 1px solid #ddd;
     border-radius: 5px;
