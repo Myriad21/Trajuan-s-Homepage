@@ -72,6 +72,21 @@ main {
     box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
 }
 
+@media (max-width: 600px) {
+    .navigation {
+        position: static;
+    }
+
+    body {
+        padding-top: 0;
+    }
+
+    .nav_hover {
+        padding: 0.4rem 0.6rem;
+        font-size: 0.9rem;
+    }
+}
+
 /*About me Styles*/
 
 .about-text {
@@ -155,7 +170,7 @@ main {
 }
 
 .interest-slot {
-    height: 350px;
+    height: 360px;
     width: 275px;
     padding: 15px;
     background-color: #9cdace;
