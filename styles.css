@@ -36,6 +36,14 @@ h2 {
     padding-top: 70px;
 }
 
+footer {
+    text-align: center;
+}
+
+main {
+    padding-bottom: 50px;
+}
+
 
 #hero_image {
     height: 150px;
@@ -147,16 +155,17 @@ h2 {
 }
 
 .interest-slot {
-    height: 250px;
+    height: 350px;
+    width: 275px;
     padding: 15px;
     background-color: #9cdace;
     border-radius: 10px;
-    overflow-y: auto;
+    
 }
 
 .interest-slot li {
     padding: 10px;
-    font-size: 16px;
+    font-size: 20px;
     line-height: 1.6;
     transition: .3s ease;
     margin-bottom: 8px;
@@ -174,4 +183,26 @@ h2 {
 
 .interest_title {
     font-size: 24px;
+}
+
+/*Contact Styles*/
+.contact-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.contact-container a {
+    padding: 12px 25px;
+    background-color: #7079a3;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: 0.3s ease;
+}
+
+.contact-container a:hover {
+    background-color: #9cdace;
+    transform: translateY(-3px);
 }
