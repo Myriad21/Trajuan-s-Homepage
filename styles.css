@@ -1,7 +1,11 @@
+html {
+    scroll-behavior: smooth;
+}
+
 .navigation {
+    left: 0;
     position: fixed;
     top: 0;
-    left: 0;
     width: 100%;
     text-align: center;
     
@@ -74,7 +78,7 @@ main {
 
 @media (max-width: 600px) {
     .navigation {
-        position: static;
+        position: fixed;
     }
 
     body {
