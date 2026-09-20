@@ -85,7 +85,7 @@ main {
 
 @media (max-width: 600px) {
     .navigation {
-        position: fixed;
+        position: static;
     }
 
     body {
