@@ -1,0 +1,3 @@
+Name: Trajuan Smith
+Live URL: https://codd.cs.gsu.edu/~tsmith413/WebDev/HW/hw1/index.html#contact
+GitHub: https://github.com/Myriad21/Trajuan-s-Homepage
